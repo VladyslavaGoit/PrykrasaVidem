@@ -1,0 +1,41 @@
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--secondary-background-color);
+    
+&__container {
+    @media screen and (min-width: 768px) {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: baseline;
+        
+
+    }
+    @media screen and (min-width: 1200px) {
+        align-items: baseline;
+        gap: 93px;
+    }
+}
+
+/* logo in footer */
+&__logo {
+    display: block;
+    margin-bottom: 20px;
+    color: var(--primary-background-color);
+    @media screen and (max-width: 1199px) {
+        text-align: center;
+    }
+   
+}
+&__social-link {
+    background-color: rgba(255, 255, 255, 0.1);
+    fill: var(--primary-background-color);
+    
+}
+
+&__social-link:hover,
+&__social-link:focus {
+    background-color: var(--accent-color);
+}
+}
