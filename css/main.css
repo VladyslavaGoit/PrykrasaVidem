@@ -614,6 +614,9 @@ a {
     width: calc((100% - 30px) / 2);
   }
 }
+.features__img {
+  max-height: 360px;
+}
 .features__icon {
   padding: 25px 0;
   margin-bottom: 30px;
