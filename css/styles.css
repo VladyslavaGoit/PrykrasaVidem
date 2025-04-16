@@ -262,15 +262,12 @@ img {
 .features__item {
   width: 270px;
 }
-.features__icon {
-  padding: 25px 100px;
-  margin-bottom: 30px;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  background-color: var(--team-background-color);
+.features__card{
+  flex-direction: column;
+  background-color: #2196f3;
+}
+.features__img {
+  height: 200px;
 }
 
 /* Section Product */
